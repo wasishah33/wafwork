@@ -1,0 +1,49 @@
+# Composer dependencies
+/vendor/
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# Log files
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Cache files
+/storage/cache/*
+!/storage/cache/.gitkeep
+
+# Framework generated files
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
+# IDE & Editor files
+/.idea
+/.vscode
+/.fleet
+/.phpstorm.meta.php
+/_ide_helper.php
+/_ide_helper_models.php
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using frontend)
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build assets (if using frontend build tools)
+/public/build/
+/public/hot
+/public/storage
+
+# Misc
+*.log
+*.swp
+*.bak
+*.sql
+*.sqlite 
