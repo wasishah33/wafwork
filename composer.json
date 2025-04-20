@@ -4,17 +4,17 @@
     "type": "project",
     "license": "MIT",
     "keywords": ["framework", "mvc", "php", "lightweight", "laravel"],
-    "homepage": "https://github.com/yourusername/wafwork",
+    "homepage": "https://github.com/wasishah33/wafwork",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your.email@example.com",
+            "name": "Wasif Waheed",
+            "email": "wasishah33@gmail.com",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/yourusername/wafwork/issues",
-        "source": "https://github.com/yourusername/wafwork"
+        "issues": "https://github.com/wasishah33/wafwork/issues",
+        "source": "https://github.com/wasishah33/wafwork"
     },
     "autoload": {
         "psr-4": {
