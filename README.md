@@ -1,5 +1,9 @@
 # WAFWork - Minimal PHP MVC Framework
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/wafwork/wafwork.svg?style=flat-square)](https://packagist.org/packages/wafwork/wafwork)
+[![Total Downloads](https://img.shields.io/packagist/dt/wafwork/wafwork.svg?style=flat-square)](https://packagist.org/packages/wafwork/wafwork)
+[![License](https://img.shields.io/packagist/l/wafwork/wafwork.svg?style=flat-square)](https://packagist.org/packages/wafwork/wafwork)
+
 WAFWork is a lightweight PHP MVC framework inspired by Laravel, designed for fast performance and minimal overhead while maintaining essential functionality.
 
 ## Features
@@ -12,6 +16,16 @@ WAFWork is a lightweight PHP MVC framework inspired by Laravel, designed for fas
 - **Environment Configuration** - Support for .env files to manage environment variables
 - **Helper Functions** - Laravel-inspired helper functions for common tasks
 - **Middleware Support** - Request/response filters with middleware pattern
+
+## Versioning
+
+WAFWork follows [Semantic Versioning](https://semver.org/). Version numbers are in the format of MAJOR.MINOR.PATCH:
+
+- **MAJOR**: Incompatible API changes
+- **MINOR**: Add functionality in a backward-compatible manner
+- **PATCH**: Backward-compatible bug fixes
+
+Check [releases page](https://github.com/wasishah33/wafwork/releases) for the latest version.
 
 ## Directory Structure
 
@@ -49,13 +63,26 @@ wafwork3/
 - Composer
 - PDO PHP Extension
 
-### Fresh Installation
+### Install via Packagist (Recommended)
 
-1. Create a new project using Composer:
+The easiest way to install WAFWork is through Composer:
 
 ```bash
+# Create a new project
 composer create-project wafwork/wafwork your-project-name
+
+# OR add to an existing project
+composer require wafwork/wafwork
 ```
+
+You can also specify a specific version:
+
+```bash
+# Install specific version
+composer create-project wafwork/wafwork:^1.0 your-project-name
+```
+
+After installation, the directory structure will be automatically created, and you'll be ready to start building your application.
 
 ### Manual Installation
 
@@ -80,7 +107,7 @@ cp .env.example .env
 
 4. Configure your environment variables in the `.env` file:
 
-```
+```bash
 APP_NAME=YourAppName
 APP_ENV=development
 APP_DEBUG=true
@@ -301,6 +328,33 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+## Staying Up-to-Date
+
+To ensure you're using the latest version of WAFWork, regularly update your installation:
+
+```bash
+composer update wafwork/wafwork
+```
+
+You can check for available updates without actually installing them:
+
+```bash
+composer outdated wafwork/wafwork
+```
+
+## Security
+
+If you discover a security vulnerability within WAFWork, please send an email to Wasif Waheed at wasishah33@gmail.com. All security vulnerabilities will be promptly addressed.
+
+## Upgrading
+
+When upgrading between major versions of the framework, please review the [upgrade guide](https://github.com/wasishah33/wafwork/blob/master/UPGRADING.md) for specific instructions.
+
+## Community
+
+- [GitHub Discussions](https://github.com/wasishah33/wafwork/discussions)
+- [GitHub Issues](https://github.com/wasishah33/wafwork/issues)
 
 ## License
 
