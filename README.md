@@ -62,7 +62,7 @@ composer create-project wafwork/wafwork your-project-name
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/wafwork.git your-project-name
+git clone https://github.com/wasishah33/wafwork.git your-project-name
 cd your-project-name
 ```
 
